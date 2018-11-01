@@ -1,0 +1,21 @@
+{
+  "name": "sftp-deploy",
+  "version": "1.0.0",
+  "description": "deploy project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sftp"
+  ],
+  "author": "laisf",
+  "license": "ISC",
+  "dependencies": {
+    "ssh2-sftp-client": "^2.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@10.0.82.224:2222/hwagain-FE/sftp-deploy.git"
+  }
+}
