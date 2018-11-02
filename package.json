@@ -1,21 +1,23 @@
 {
-  "name": "sftp-deploy",
-  "version": "1.0.0",
+  "name": "simple-sftp-deploy",
+  "version": "0.0.1",
   "description": "deploy project with ssh2-sftp-client",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "sftp"
+    "sftp",
+    "deploy"
   ],
-  "author": "MericLai",
+  "author": "unclemeric",
   "license": "ISC",
   "dependencies": {
     "ssh2-sftp-client": "^2.4.0"
   },
+  "homepage": "https://github.com/unclemeric/simple-sftp-deploy#readme",
   "repository": {
     "type": "git",
-    "url": "ssh://git@10.0.82.224:2222/hwagain-FE/sftp-deploy.git"
+    "url": "git+https://github.com/unclemeric/simple-sftp-deploy.git"
   }
 }
