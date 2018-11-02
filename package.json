@@ -1,7 +1,7 @@
 {
   "name": "sftp-deploy",
   "version": "1.0.0",
-  "description": "deploy project",
+  "description": "deploy project with ssh2-sftp-client",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
   "keywords": [
     "sftp"
   ],
-  "author": "laisf",
+  "author": "MericLai",
   "license": "ISC",
   "dependencies": {
     "ssh2-sftp-client": "^2.4.0"
