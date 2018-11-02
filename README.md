@@ -1,11 +1,12 @@
 # simple-sftp-deploy
-deploy
 
 ### Usage
 
 - 引入
 ```
-npm install https://github.com/unclemeric/simple-sftp-deploy.git -S
+npm install simple-sftp-deploy -S
+or
+yarn add simple-sftp-deploy
 ```
 - 使用
 ```
