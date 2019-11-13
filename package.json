@@ -1,6 +1,6 @@
 {
   "name": "simple-sftp-deploy",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "deploy project with ssh2-sftp-client",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "author": "unclemeric",
   "license": "ISC",
   "dependencies": {
-    "ssh2-sftp-client": "^2.4.0"
+    "ssh2-sftp-client": "^4.2.3"
   },
   "homepage": "https://github.com/unclemeric/simple-sftp-deploy#readme",
   "repository": {
