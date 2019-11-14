@@ -15,7 +15,7 @@ yarn add simple-sftp-deploy
 ```
 const ssd = require('simple-sftp-deploy')
 const path = require('path')
-ssd.start({
+ssd.deploy({
   is_bak: true, // 是否备份
   remote_path: '/data/webapps/xxx',//服务器项目根路径
   assets_path: path.resolve(__dirname,'./dist'),//编译后资源文件夹名称(需上传的文件夹)

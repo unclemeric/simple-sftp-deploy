@@ -1,5 +1,5 @@
-const start = require('./src/start')
+const deploy = require('./src/deploy')
 
 module.exports = {
-  start
+  deploy
 }
