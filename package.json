@@ -1,6 +1,6 @@
 {
   "name": "simple-sftp-deploy",
-  "version": "0.1.2",
+  "version": "0.2.1",
   "description": "deploy project with ssh2-sftp-client",
   "main": "index.js",
   "scripts": {

@@ -78,9 +78,9 @@ class Deploy {
       }
       this.sftp
         .connect(config.options)
-        .then(async data => {
+        .then(data => {
           console.log('文件服务器连接成功')
-          const deployFiles = () => {
+          const deployFiles = async () => {
             console.log(`准备创建项目根路目录${config.project_remote_path}`)
             await this.sftp.mkdir(config.project_remote_path, false) // false: 不设置递归创建文件夹
             console.log('正在上传...')
