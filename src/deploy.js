@@ -107,6 +107,7 @@ class Deploy {
               .catch(e => {
                 console.log(`重命名文件夹${config.project_remote_path}}失败，目录不存在`)
                 deployFiles()
+                console.log(e)
               })
           } else {
             // 删除旧文件
@@ -122,7 +123,7 @@ class Deploy {
           }
         })
         .catch(err => {
-          console.error('start() catch error\n', error)
+          console.error('start() catch error\n', err)
           this.sftp.end()
           resolve()
         })
